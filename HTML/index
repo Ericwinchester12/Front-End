@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAWAII</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f21966000.js" crossorigin="anonymous"></script>
+    <!-- Linha que conecta o HTML com o seu arquivo style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="instrucoes">Atividade 05: Faça uma analise da estrutura HTML do site e faça todo o seu CSS. A ideia é que ele seja o mais próximo da print da atividade que fizeram anteriormente. Se quiserem alterar as cores, a fonte ou adicionar icones, fiquem a vontade.</div>
+    <div class="canvas" id="canvas">
+        <!-- O Fundo do Formulário -->
+        <div class="item-solto ui-card-bg" id="fundo"></div>
+
+        <!-- Textos -->
+        <div class="item-solto ui-title">Cadastro de Usuário</div>
+        <div class="item-solto ui-subtitle">Preencha os dados de acesso do sistema</div>
+
+        <!-- Inputs bagunçados -->
+        <div class="item-solto ui-input-group">
+            <div class="ui-label">Nome Completo</div>
+            <div class="ui-input"></div> 
+        </div>
+
+        <div class="item-solto ui-input-group">
+            <div class="ui-label">E-mail Corporativo</div>
+            <div class="ui-input"></div> 
+        </div>
+
+        <div class="item-solto ui-input-group">
+            <div class="ui-label">Senha de Acesso</div>
+            <div class="ui-input"></div> 
+        </div>
+
+        <!-- Botões e Imagem -->
+        <div>
+            
+        </div>
+        <div class="item-solto ui-btn-primary">SALVAR USUÁRIO</div>
+        <div class="item-solto ui-btn-secondary">Cancelar Operação</div>
+       <div class="item-solto ui-avatar">
+    <img src="avatar.webp" alt="Avatar">
+</div>
+</body>
+</html>
